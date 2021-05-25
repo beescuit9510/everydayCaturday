@@ -1,4 +1,4 @@
-#everyday is a caturday is a website i built using react.
+# everyday is a caturday is a website i built using react.
 the website gives you information of the species of cats and people who dominates for strays cats
 the data from the website came from Cat API(https://thecatapi.com/) and Github User API.
 
