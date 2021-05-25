@@ -1,0 +1,230 @@
+:root{
+    /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+*{
+    
+    text-transform: capitalize;
+}
+
+.donor-section{
+    width: 115%;
+    margin: 0 auto;
+    margin-left: -7%;
+    background-color:rgb(2, 3, 61);
+    background-color:var(--clr-primary-1);
+    min-height: 500px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  color: var(--clr-primary-7);
+
+}
+
+.donor-main-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.donor-section-header, .donor-section-main{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donor-section-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+.donor-section-header > h2> span {
+    font-size: 0.85em;
+    color: var(--clr-primary-5);
+
+
+}
+
+.donor-main-img{
+    margin: 0 auto;
+    margin-top: 0.4em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: var(--clr-white);
+    padding: 0.25rem;
+    border: 1px solid var(--clr-grey-7);
+    box-shadow: var(--dark-shadow);
+}
+
+.donor-main-donor-name{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--clr-primary-5);
+    letter-spacing: var(--spacing);
+}
+
+
+.donor-main-btn{
+    position: absolute;
+    top:50%;
+    background-color: var(--clr-grey-5);
+    
+    color:var(--clr-white);
+    border:transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: var(--clr-primary-5);
+    
+
+}
+.donor-main-btn2{
+    right: 5%;
+}
+
+.donor-main-btn1{
+    left: 5%;
+}
+
+
+
+.donor-main-thank-you{
+    color:var(--clr-grey-5);
+  color: white;
+
+}
+
+
+.donor-quote-icon{
+    margin: 0 auto;
+    margin-top: 0.6em;
+    font-size: 3rem;
+    color: var(--clr-primary-5);
+}
+
+
+@media screen and (min-width: 650px) {
+
+    .donor-section{
+        background-color: transparent;
+}
+
+.donor-section-header > h2> span {
+    font-size: 0.85em;
+    color: var(--clr-primary-5);
+
+}
+
+.donor-main-img{
+    background-color: var(--clr-white);
+    box-shadow: var(--dark-shadow);
+}
+
+.donor-main-donor-name{
+    color: var(--clr-primary-5);
+}
+
+
+.donor-main-btn{
+    color:var(--clr-white);
+
+}
+.donor-main-btn2{
+    right: 0%;
+}
+
+.donor-main-btn1{
+    left: 0%;
+}
+
+
+
+.donor-main-thank-you{
+    color:var(--clr-grey-5)
+}
+
+
+.donor-quote-icon{
+    margin: 0 auto;
+    margin-top: 0.6em;
+    font-size: 3rem;
+    color: var(--clr-primary-5);
+}
+
+
+    
+    
+    .cat-species-main{
+        display: flex;
+    }
+
+    .donor-section-header{
+    font-size: 1rem;
+}
+
+.donor-main-donor-name{
+    font-size: 0.7rem;
+}
+
+
+.donor-main-img{
+    margin: 0 auto;
+    margin-top: 0.4em;
+    width: 7em;
+}
+
+.donor-section{
+margin-top: 0;
+}
+
+
+  .donor-section{
+    margin-left: 4em;
+    width: 20%;
+    min-width: 200px;
+  }
+
+
+
+
+}
